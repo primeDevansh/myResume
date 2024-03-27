@@ -1,0 +1,231 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Devansh Rastogi} \\ \vspace{10pt}
+    \small \href{mailto:dvcam.rastogi1980@gmail.com}{\underline{devansh.rastogi6877@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/rastogidevansh}{\underline{linkedin.com/in/rastogidevansh}} $|$
+    \href{https://github.com/primeDevansh}{\underline{github.com/primeDevansh}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology Madras}{Chennai, Tamil Nadu}
+      {Bachelor of Science in Data Science and Applications}{Jan. 2024 -- Dec. 2027}
+    \resumeSubheading
+      {Guru Gobind Singh Indraprastha University}{Dwarka, Delhi}
+      {Bachelor of Technology in Computer Science, Minor in AI \& ML}{Sep. 2021 -- July 2025}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Liaison Officer}{July 2023}
+      {G20 Conference on Crime and Security in the age of NFTs, AI \& Metaverse}{Gurugram, Haryana}
+      \resumeItemListStart
+        \resumeItem{Facilitated collaboration among G20 nations' representatives}
+        \resumeItem{Ensured seamless communication on emerging NFT, AI, and Metaverse challenges}
+        \resumeItem{Fostered collective strategies for global crime and security}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Detector Simulation and Optimization} $|$ \emph{Geant4, Python, R}}{ }
+          \resumeItemListStart
+            \resumeItem{Developed a simulation for a particle detector system using Geant4 toolkit}
+            \resumeItem{Generated synthetic data to represent various particle collisions}
+            \resumeItem{Analyzed the simulated data to identify patterns, anomalies, or inefficiencies in the detector's response}
+            \resumeItem{Implemented optimization algorithms to improve the detector's performance}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Scientific Paper Recommendation System for Particle Physics} $|$ \emph{Python, NLP}}{ }
+          \resumeItemListStart
+            \resumeItem{Developed a recommendation system that suggests relevant scientific papers based on user input}
+            \resumeItem{Utilized web scraping to build a comprehensive corpus}
+            \resumeItem{Applied Latent Dirichlet Allocation technique to identify key topics within the scientific papers}
+            \resumeItem{Implemented algorithms that predict which papers a user might find relevant based on their interests}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Classify Song Genres from Audio Data} $|$ \emph{Python, NumPy}}{ }
+          \resumeItemListStart
+            \resumeItem{Applied machine learning algorithms to classify songs into genres}
+            \resumeItem{Prepared the data set to apply principal component analysis (PCA)}
+            \resumeItem{Trained a decision tree to classify the genre}
+            \resumeItem{Used cross-validation to evaluate the models}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Word Frequency in Classic Novels} $|$ \emph{Python, BeautifulSoup}}{ }
+          \resumeItemListStart
+            \resumeItem{Used 'requests' and 'BeautifulSoup' to scrape a novel from the Project Gutenberg website}
+            \resumeItem{Used 'NLP' to find the most frequent words in Moby Dick}
+            \resumeItem{Learnt Web Scraping through this project}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Memorize!} $|$ \emph{Swift, SwiftUI}}{ }
+          \resumeItemListStart
+            \resumeItem{A tile-based memory challenge made using Swift and SwiftUI in Xcode}
+            \resumeItem{User-selectable themes for a personalized gaming adventure}
+            \resumeItem{Scores determined using accuracy and completion time parameters}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, R, SQL, Java, C/C++, Rust, Swift} \\
+     \textbf{Frameworks}{: Substrate, SwiftUI, WordPress} \\
+     \textbf{Developer Tools}{: Git, Docker, VS Code, XCode, IntelliJ, Eclipse} \\
+}}
+\end{itemize}
+
+%
+%----------EXTRA-CURRICULAR ACTIVITIES------
+\section{Extra-Curricular Activities}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Basketball}{ Actively involved in college sports events - playing and organising} \\
+     \textbf{Playing DJ}{ Enjoy myself playing songs in parties} \\
+     \textbf{Photography}{ Leveraged technical skills and artistic eye to capture compelling moments, employing advanced equipment and post-processing techniques to produce high-quality, visually stunning images} \\
+     \textbf{YouTube}{ Technical YouTube channel to describe various issues faced by a coder along with optimal solutions} \\
+     \textbf{Blog}{ Occasionally blog about life fundamentals and short stories}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
