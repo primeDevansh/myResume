@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.27)  27 MAR 2024 23:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.27)  28 MAR 2024 00:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -284,7 +284,7 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box55
 )
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
@@ -305,6 +305,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
 LaTeX Font Info:    ... okay on input line 106.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
 LaTeX Font Info:    ... okay on input line 106.
+
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count280
@@ -320,6 +321,7 @@ LaTeX Font Info:    ... okay on input line 106.
 \everyMPtoPDFconversion=\toks26
 )
 Package hyperref Info: Link coloring OFF on input line 106.
+ (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -361,23 +363,17 @@ L3 programming layer <2024-02-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C49C2F40EE548713C5854D953BBD878B;571.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C49C2F40EE548713C5854D953BBD878B;571.
  ) 
 Here is how much of TeX's memory you used:
- 10570 strings out of 474116
- 165893 string characters out of 5743682
- 1959187 words of memory out of 5000000
- 32815 multiletter control sequences out of 15000+600000
+ 10584 strings out of 474116
+ 166046 string characters out of 5743682
+ 1958187 words of memory out of 5000000
+ 32823 multiletter control sequences out of 15000+600000
  563661 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,254b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,251b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -385,10 +381,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 106107 bytes).
+Output written on main.pdf (1 page, 107053 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
