@@ -11,3 +11,6 @@
     <i>last edit on 27/Mar/24 21:55</i>
   </p>
 </p>
+<p>
+  <a href = "main.pdf">Click here to read my latest resume</a>
+</p>
