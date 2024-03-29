@@ -1,0 +1,3 @@
+- Edited the source code "main.tex" in TeXShop software.
+- Executed the code using ⌘ + T
+- File output as "main.pdf"
