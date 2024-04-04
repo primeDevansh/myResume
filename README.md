@@ -8,7 +8,7 @@
 </p>
 
 <p>
-  Till date, I used to contruct my résumé using the very popular scriting language <b>Latex</b>. Today (27/Mar/24), after a very good game of basketball, an idea struck my mind: - <i><b>"why not source control my résumé?"</b></i> It is not that this idea stemmed out from nowhere, I had to submit my résumé for research internship at a reputed college in Delhi and so, yeah! ideas are just ideas, ummm, actually it came out of nowhere :p
+  Till date, I used to contruct my résumé using the very popular scripting language <b>Latex</b>. Today (27/Mar/24), after a very good game of basketball, an idea struck my mind: - <i><b>"why not source control my résumé?"</b></i> It is not that this idea stemmed out from nowhere, I had to submit my résumé for research internship at a reputed college in Delhi and so, yeah! ideas are just ideas, ummm, actually it came out of nowhere :p
 </p>
 
 <p>
