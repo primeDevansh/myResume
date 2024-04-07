@@ -1,6 +1,6 @@
 # myResume
 <p>
-  Repository for source-controlling my résumé :p
+  Repository for source-controlling my résumé :D
 </p>
 
 <p>
