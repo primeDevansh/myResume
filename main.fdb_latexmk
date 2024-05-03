@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1714636561.75978 "/Users/devanshrastogi/Documents/07 My Codes/myResume/main.tex" "main.pdf" "main" 1714636563.60745 0
-  "/Users/devanshrastogi/Documents/07 My Codes/myResume/main.tex" 1714636561.33133 9590 97310ff10079672d31eb46edf01c909e ""
+["pdflatex"] 1714759427.86966 "/Users/devanshrastogi/Documents/07 My Codes/myResume/main.tex" "main.pdf" "main" 1714759429.46014 0
+  "/Users/devanshrastogi/Documents/07 My Codes/myResume/main.tex" 1714759427.51443 8970 9dc4674750df7c3419f4bb9db7af25de ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -85,9 +85,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1711556759.80627 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1711556692 8221421 f492eddb5e291a0a5d52ca893825d4a5 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1714636563.41454 682 ca6f6e291a5e410817b1d546df113460 "pdflatex"
-  "main.out" 1714636563.41604 438 c3129e17e0a2a106a4777184589f29c4 "pdflatex"
-  "main.tex" 1714636561.33133 9590 97310ff10079672d31eb46edf01c909e ""
+  "main.aux" 1714759429.23602 682 ca6f6e291a5e410817b1d546df113460 "pdflatex"
+  "main.out" 1714759429.2399 438 c3129e17e0a2a106a4777184589f29c4 "pdflatex"
+  "main.tex" 1714759427.51443 8970 9dc4674750df7c3419f4bb9db7af25de ""
   (generated)
   "main.aux"
   "main.log"
