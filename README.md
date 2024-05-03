@@ -22,5 +22,5 @@
 
 As far as I can understand it is always good to send role-tailored resumes when you're applying for a position. The resume should match what the requirements of the role are, making it role-tailored. To achieve this in GH, I have decided to maintain separate branches for separate applications. Here are the branches I created: (And, of course, I'd defer describing each branch for abvious privacy reasons - to save it from the evil's eye)
 
-> **02 May 2024** researchIntern
-> **03 May 2024** forSiemens
+* **02 May 2024** researchIntern
+* **03 May 2024** forSiemens
