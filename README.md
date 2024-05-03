@@ -12,8 +12,15 @@
 </p>
 
 <p>
-  Till date, I was using the online website <b>'overleaf'</b> for editing and doing rest stuff on my résumé. From today onwards, I will try to maintain it on GitHub. I am quite excited for this. Let's get going!
+  I had been using the website <b>'overleaf'</b> for editing and doing rest stuff on my résumé. From today onwards, I will try to maintain it on GitHub. I am quite excited for this. Let's get going!
   <p align = 'right'>
     <i>last edit on 30/Mar/24 22:39</i>
   </p>
 </p>
+
+### Different Branch for Different Job Application
+
+As far as I can understand it is always good to send role-tailored resumes when you're applying for a position. The resume should match what the requirements of the role are, making it role-tailored. To achieve this in GH, I have decided to maintain separate branches for separate applications. Here are the branches I created: (And, of course, I'd defer describing each branch for abvious privacy reasons - to save it from the evil's eye)
+
+> **02 May 2024** researchIntern
+> **03 May 2024** forSiemens
