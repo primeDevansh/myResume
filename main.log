@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.27)  2 MAY 2024 13:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.27)  24 JUL 2024 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -299,7 +299,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[2] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -312,18 +318,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C49C2F40EE548713C5854D953BBD878B;571.
  ) 
 Here is how much of TeX's memory you used:
- 10585 strings out of 474116
- 166205 string characters out of 5743682
- 1959187 words of memory out of 5000000
+ 10586 strings out of 474116
+ 166211 string characters out of 5743682
+ 1958187 words of memory out of 5000000
  32823 multiletter control sequences out of 15000+600000
  563661 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,306b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,306b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 107550 bytes).
+Output written on main.pdf (2 pages, 108881 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
