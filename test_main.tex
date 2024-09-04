@@ -101,7 +101,7 @@
 \begin{textblock*}{2cm}(18cm,0.5cm) % Adjust position and size as needed
   \includegraphics[width=2cm,height=2.5cm,keepaspectratio]{photo.jpg}
 \end{textblock*}
-
+% Have a look at https://www.sahasrarjn.com/#
 %----------HEADING----------
 \begin{center}
     \textbf{\Huge \scshape Devansh Rastogi} \\ \vspace{10pt}
@@ -115,10 +115,10 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Indian Institute of Technology Madras}{Chennai, Tamil Nadu}
-      {Bachelor of Science in Data Science and Applications}{Jan. 2024 -- Dec. 2027}
+      {Bachelor of Science in Data Science and Applications, CGPA - 8.25 (Upto 1st Semester)}{Jan. 2024 -- Dec. 2027}
     \resumeSubheading
       {Guru Gobind Singh Indraprastha University}{Dwarka, Delhi}
-      {Bachelor of Technology in Computer Science, Minor in AI \& ML}{Sep. 2021 -- July 2025}
+      {Bachelor of Technology in Computer Science, Minor in AI \& ML, CGPA - 8.80 (Upto 6th Semester)}{Sep. 2021 -- July 2025}
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
@@ -129,10 +129,16 @@
       {IIIT-Delhi}{On-site, Networked Systems Lab}
       \resumeItemListStart
       % You have to describe your ROLE here!
-        \resumeItem{Collaborated with a team in the Networked Systems (NetSys) Lab on a project associated with Marvell Technologies and IIT Hyderabad, focusing on simulating network traffic patterns for distributed LLM inferencing workloads}
-        \resumeItem{Conducted in-depth research on RDMA technology and designed a virtual RDMA communication infrastructure for efficient VM-to-VM communication}
+        \resumeItem{Collaborated on a project associated with Marvell Technologies USA and IIT Hyderabad}
+        \resumeItem{The ongoing project aims to simulate RDMA network traffic for distributed AI model training and inferencing}
+        \resumeItem{Acquired extensive knowledge about operating systems, AI models, LLMs, deep learning, and distributed computing}
+        \resumeItem{Conducted in-depth research on RDMA technology, specifically the RoCEv2 implementation}
+        % \resumeItem{Implemented both physical as well as virtual RDMA communication infrastructure}
+        % \resumeItem{Collaborated with a team in the Networked Systems (NetSys) Lab on a project associated with Marvell Technologies USA and IIT Hyderabad}
+        % \resumeItem{focusing on simulating network traffic patterns for distributed LLM inferencing workloads}
+        % \resumeItem{Conducted in-depth research on RDMA technology and designed a virtual RDMA communication infrastructure for efficient VM-to-VM communication}
         % \resumeItem{Designed a virtual RDMA communication infrastructure for efficient VM-to-VM communication}
-        \resumeItem{Acquired extensive knowledge of operating system fundamentals and low-level C programming concepts}
+        % \resumeItem{Acquired extensive knowledge of operating system fundamentals and low-level C-programming concepts}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -146,13 +152,12 @@
 
     \resumeSubheading
       {Liaison Officer}{July 2023}
-      {G20 Conference on Crime and Security in the age of NFTs, AI \& Metaverse}{Gurugram, Haryana}
+      {G20 Conference on Crime and Security in the age of NFTs, AI \& Metaverse}{On-site, Gurugram - Haryana}
       \resumeItemListStart
         \resumeItem{Facilitated collaboration among G20 nations' representatives}
         \resumeItem{Ensured seamless communication on emerging NFT, AI, and Metaverse challenges}
         \resumeItem{Fostered collective strategies for global crime and security}
     \resumeItemListEnd
-
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
@@ -160,11 +165,12 @@
     \resumeSubHeadingListStart
     
     \resumeProjectHeading
-          {\textbf{RDMA Traffic Generator for Distributed LLM Inferencing Workload} $|$ \emph{PyTorch, TorchRun}}{June 2024 -- Present}
+          {\textbf{RDMA Network Traffic Analysis for Distributed LLM Inferencing} $|$ \emph{PyTorch, torchrun, Llama}}{June 2024 -- Present}
           \resumeItemListStart
-            \resumeItem{Collaborated with a team to understand network packet traces in a distributed-computing environment for LLM inferencing workload}
-            \resumeItem{Set up a an RDMA communication infrastructure for 2 rack servers to communicate with each other for a distributed-computing environment}
-            \resumeItem{Generated RDMA traffic for ditributed LLM inferencing workload using PyTorch's TorchRun library}
+            \resumeItem{Collaborated with a team to understand RDMA network packet traces for a distributed LLM inferencing workload}
+            \resumeItem{Used Nvidia's H100 GPUs on IIITD's rack servers for LLM inferencing}
+            \resumeItem{Set up a physical RDMA (RoCEv2) communication infrastructure for efficient GPU-GPU communication using Intel RNIC}
+            \resumeItem{Generated RDMA traffic for ditributed Llama-2 inferencing workload using PyTorch library's torchrun functionality}
           \resumeItemListEnd
 
     \resumeProjectHeading
@@ -177,12 +183,25 @@
           \resumeItemListEnd
 
     \resumeProjectHeading
-          {\textbf{Classify Song Genres from Audio Data} $|$ \emph{Python, NumPy}}{Jan. 2024 -- Feb. 2024}
+          {\textbf{Classify Song Genres from Audio Data} $|$ \emph{Python, Pandas, Seaborn, Scikit-learn}}{Jan. 2024 -- Feb. 2024}
           \resumeItemListStart
-            \resumeItem{Applied machine learning algorithms to classify songs into genres}
-            \resumeItem{Prepared the data set to apply principal component analysis (PCA)}
-            \resumeItem{Trained a decision tree to classify the genre}
+            \resumeItem{Trained a classifier to distinguish between Hip-Hop and Rock genres based only on track information derived from Echonest}
+            \resumeItem{Prepared the dataset using Pandas and Seaborn packages to apply principal component analysis (PCA)}
+            \resumeItem{Used the Scikit-learn package to predict whether we can correctly classify a song's genre based on features such as danceability, energy, acousticness and tempo}
             \resumeItem{Used cross-validation to evaluate the models}
+            % \resumeItem{Applied machine learning algorithms to classify songs into genres}
+            % \resumeItem{Prepared the data set to apply principal component analysis (PCA)}
+            % \resumeItem{Trained a decision tree to classify the genre}
+            % \resumeItem{Used cross-validation to evaluate the models}
+          \resumeItemListEnd
+    
+    \resumeProjectHeading
+          {\textbf{younixShop} $|$ \emph{C++, Object-Oriented Programming}}{Dec. 2022 -- Jan. 2023}
+          \resumeItemListStart
+            \resumeItem{Simulated a typical inventory management software using only C++ code}
+            \resumeItem{Primarily used C++ file handling operations to carry out all types of transactions}
+            \resumeItem{Provided functionalities such as administrative management, customer account management, bill management, sales-report generation and even a dedicated customer help centre page}
+            \resumeItem{Strictly followed an object-oriented design and ensured sensitive data security through the usage of binary files}
           \resumeItemListEnd
 
     \resumeSubHeadingListEnd
@@ -193,7 +212,7 @@
     \small{\item{
      \textbf{Languages}{: Python, C, C++, Swift, SQL} \\
     %  You can add MPI for parallel computing.
-     \textbf{Frameworks}{: Libfabric, SwiftUI} \\
+     \textbf{Data Science}{: PyTorch, TensorFlow, Pandas, NumPy, Scikit-learn, Matplotlib} \\
      \textbf{Developer Tools}{: Git/GitHub, VS Code, Xcode, JupyterLab, RStudio} \\
      \textbf{Hardware Skills}{: Arduino, Raspberry-Pi, Circuit Design, Sensor Integration, GPIO Programming} \\
 }}
@@ -203,9 +222,9 @@
 \section{Extra-Curricular Activities}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Sports:}{ Engaged in active participation and proficient organization of basketball and cricket events} \\
-     \textbf{YouTube:}{ Passionate YouTube content creator with 100+ subscribers, featuring technical and diverse content} \\
-     \textbf{Volunteering:}{ Engaged in regular, independent volunteering activities involving the preparation and distribution of freshly cooked meals to individuals in need}
+    %  \textbf{Sports:}{ Engaged in active participation and proficient organization of basketball and cricket events} \\
+    % %  \textbf{YouTube:}{ Passionate YouTube content creator with 100+ subscribers, featuring technical and diverse content} \\
+     \textbf{}{Engaged in regular \& independent community service involving the preparation and distribution of meals to individuals in need} \\
     }}
  \end{itemize}
 
