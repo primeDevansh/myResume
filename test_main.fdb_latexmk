@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1725481463.3767 "/Users/devanshrastogi/Documents/07 My Codes/myResume/test_main.tex" "test_main.pdf" "test_main" 1725481464.75924 0
-  "/Users/devanshrastogi/Documents/07 My Codes/myResume/test_main.tex" 1725481463.05024 10808 88958cc24cd6c6c544b81978ab613594 ""
+["pdflatex"] 1738840700.073 "/Users/devanshrastogi/Documents/07 My Codes/myResume/test_main.tex" "test_main.pdf" "test_main" 1738840701.90055 0
+  "/Users/devanshrastogi/Documents/07 My Codes/myResume/test_main.tex" 1738840699.67236 10805 8193fa28261a74451e32e34fa892440e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -94,9 +94,9 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1711556692 8221421 f492eddb5e291a0a5d52ca893825d4a5 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "photo.jpg" 1721824825.33487 159779 4a87afd7fb6d9c1a90cfc1c284c290f7 ""
-  "test_main.aux" 1725481464.58468 797 6b0f5de1c26a6a76a74bcc6715e4840b "pdflatex"
-  "test_main.out" 1725481464.58647 571 c49c2f40ee548713c5854d953bbd878b "pdflatex"
-  "test_main.tex" 1725481463.05024 10808 88958cc24cd6c6c544b81978ab613594 ""
+  "test_main.aux" 1738840701.74598 797 6b0f5de1c26a6a76a74bcc6715e4840b "pdflatex"
+  "test_main.out" 1738840701.74788 571 c49c2f40ee548713c5854d953bbd878b "pdflatex"
+  "test_main.tex" 1738840699.67236 10805 8193fa28261a74451e32e34fa892440e ""
   (generated)
   "test_main.aux"
   "test_main.log"
